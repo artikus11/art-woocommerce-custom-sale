@@ -13,32 +13,10 @@ Customize the sale tag that appears on WooCommerce product thumbnails when a pro
 
 == Description ==
 
-Excellent set of shortcodes to the exclusive design of your articles
+When a WooCommerce product is on sale, a tag is placed on top of the Product Thumbnails. The default label for this tag is "Sale!".
+This plugin allows you to customize the label and can even insert the price difference or percent difference.
 
 = Features =
-
-* Row
-* Infobox
-* Custom Infobox
-* Columns
-* Hover Button in icon
-* ColorBox
-* Dividers
-* Spacer
-* Blockquote
-* Dropcaps
-* Blur spoiler
-
-[View in action](http://wpruse.ru/?p=570)
-
-= Demo video =
-
-https://www.youtube.com/watch?v=fL3Qmkzz7JE
-
-
-look with 6m3s
-
-https://www.youtube.com/watch?v=KyWtDjGrpec
 
 
 = Bundled translations: =
@@ -49,21 +27,11 @@ https://www.youtube.com/watch?v=KyWtDjGrpec
 = Donate link: =
 <a href="https://www.paypal.me/artabr" target="_blank">https://www.paypal.me/artabr</a>
 
-= Got a bug or suggestion? =
-* [Documentation](http://wpruse.ru/?p=570)
-* [Contact author](http://wpruse.ru/?p=50) (please *DO NOT* use this form for support requests)
-
-= Thanks =
-* Kyle Brumm - [Hover Buttons](https://codepen.io/kjbrum/pen/wBBLXx)
-* Joey Hoer - [Dividers](https://codepen.io/joeyhoer/pen/BmqIx)
-* Dave Hauser - [Flex Columns](https://codepen.io/davehauser/pen/qIpoz)
-* Filipe Kiss - [Blur Spoiler](https://codepen.io/filipekiss/pen/wDlBz)
-
 == Installation ==
 
 This section describes how to install the plugin and get it working.
 
-1. Upload the `art-decoration-shortcode` folder to the to the `/wp-content/plugins/` directory
+1. Upload the `art-woocommerce-custom-sale` folder to the to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. You can see 'carrot' button on post editor, using this button, you can add shortcodes in your posts.
 
@@ -75,90 +43,11 @@ An answer to that question.
 
 == Screenshots ==
 
-1. Shortcodes button
-2. Infobox
-3. Hover buttons
-4. Flex columns
-5. Dividers
-6. Quoter's
-7. Dropcap
-8. Color box
-9. Blur spoiler
 
 == Changelog ==
 
-= 1.4.6 =
-* Updated readme
-
-= 1.4.5 =
-* Updated verified version of php
-
-= 1.4.4 =
-* Updated readme
-
-= 1.4.3 =
-* Updated translations
-
-= 1.4.2 =
-* Updated translations
-
-= 1.4.1 =
-* Added verified version of php
-* Updated translations
-
-
-= 1.4 =
-* Update infobox style
-* Added new infobox for custom box
-* Added support SiteOrigin Page Builder
-* Added hooks - filters html shortcode
-* Added the ability to add an additional class
-* Changed color block control
-* Repair blur spoiler style
-
-= 1.3.4 =
-* Update button style. Update your button shortcodes!!!
-
-= 1.3.3 =
-* Update style
-
-= 1.3.2 =
-* Fixed conflict style
-
-= 1.3.1 =
-* Correcting in styles
-* Fixed bugs
-
-= 1.3 =
-* Correcting in styles
-* Add quoes to center
-* Fixed bugs
-
-= 1.2.2 =
-* Correcting in styles
-
-= 1.2.1 =
-* Fixed small bugs 
-
-= 1.2 =
-* Multilingual support for TinyMCE
-* Fixed small bugs
-
-= 1.1 =
-* Add new hover button
-* Added the ability to use any icons in buttons
-* Add blur spoiler
-* Add spacer
-* It adds the ability to insert the selected text in the shortcode
-
-= 1.0.3 =
-* Fixed small bugs
-
-= 1.0.2 =
-* Fix small style
-
 = 1.0 =
-* Official plugin release.
+* Release this plugin to the masses!
 
 == Upgrade Notice ==
 
