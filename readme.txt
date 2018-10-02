@@ -42,7 +42,9 @@ This section describes how to install the plugin and get it working.
 An answer to that question.
 
 == Screenshots ==
-1. Operating mode
+1. Regular mode of operation
+2. The withdrawal of a discount as a percentage
+3. Conclusion of a discount in the form of a price difference
 
 == Changelog ==
 
