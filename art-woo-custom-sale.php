@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: Art Woocommerce Custom Sale
- * Plugin URI: #
+ * Plugin URI: https://wpruse.ru
  * Text Domain: art-woocommerce-custom-sale
  * Domain Path: /languages
  * Description: Customize the sale tag that appears on WooCommerce product thumbnails when a product sale price is set lower than the retail price.
  * Version:           1.0.0
  * Author:            Artem Abramovich
  * Author URI:        https://wpruse.ru/
- * License:           GPL-2.0+
+ * License:           GPL-3.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt Text Domain: Domain Path:
  * Tags:
  *
@@ -16,18 +16,24 @@
  * WC tested up to: 3.4.5
  *
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * Copyright Artem Abramovich
  *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
+ *     This file is part of Art Woocommerce Custom Sale,
+ *     a plugin for WordPress.
  *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *     Art Woocommerce Custom Sale is free software:
+ *     You can redistribute it and/or modify it under the terms of the
+ *     GNU General Public License as published by the Free Software
+ *     Foundation, either version 3 of the License, or (at your option)
+ *     any later version.
+ *
+ *     Art Woocommerce Custom Sale is distributed in the hope that
+ *     it will be useful, but WITHOUT ANY WARRANTY; without even the
+ *     implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ *     PURPOSE. See the GNU General Public License for more details.
+ *
+ *     You should have received a copy of the GNU General Public License
+ *     along with WordPress. If not, see <http://www.gnu.org/licenses/>.
  *
  **/
 

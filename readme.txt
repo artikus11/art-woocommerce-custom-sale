@@ -5,7 +5,7 @@ Tags: woocommerce, custom sale
 Requires at least: 4.8
 Tested up to: 4.9.8
 Stable tag: 1.0.0
-Requires PHP: 5.6+
+Requires PHP: 5.6
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,7 +42,7 @@ This section describes how to install the plugin and get it working.
 An answer to that question.
 
 == Screenshots ==
-
+1. Operating mode
 
 == Changelog ==
 
