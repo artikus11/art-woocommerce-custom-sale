@@ -1,0 +1,22 @@
+language: php
+sudo: false
+php:
+- '5.6'
+- '7.0'
+- '7.1'
+- '7.2'
+script:
+- echo 'Tested'
+before_deploy:
+- git config --local user.name "artikus11"
+- git config --local user.email "artikus.sol@gmail.ru"
+- git tag "1.1.0"
+deploy:
+  provider: releases
+  api_key:
+    secure: n8E01F/Jz5puoa3HawrONJ0nZUqpsVC7V5/SaGKinR+gxTDiEt7ZTjgaTUXaMCJtQPI7X7kgdSzji/BY8ExPbXxDQeVXiq8IbzDWsnUfDGBPAXdL8PmRv6fiv5h7f7LdT6lyCNwpM2sSY03JPq9GC5g94/e0eqCJtxMGyQa1WqiqqyG0bzzNgeTe6JgJxJX4bnom0u6dFKKimhKtsSyjbF7scgBkUU7V5khkz2zrcwi9Ys3IGVq1mXKTtM/K/b07bwBXBE687fJ8XbtBGbnRDZ6H9DEGvHZ3/RpAxkeSSFV7dI8FK6YiWowRXRjs4Oaxv/EtQR2+VHjXn5zXn7PCJrhfzfNv5yon5BoBsDV/jJ/ivIcBpZ1la0lg08O1aG2TahjVknbCTsQqTFYYobwSXTOWsA5xNicPW7Jr9yvDVpCA3yoYxeLP4Glu0/DgPsSJep1eQHsvtRThW40Qq1FaYK5ieJiiotRN29sBCMahXYByZfv7c46Yp0tk5ERbhwOeaq5XG+dCNyoFRLBUGqZRjOOI4tO2caQ7C6z3OH5f1pHA9mdYm8JnbjPptW1/Rw+PU408vOTA2Sslihzdn81cfUO2sqStZ26ME4eH2w15fzzIatGs9Or/IW9kjli8HK3WSxKfi/NdE5uZ0C+Iz00+C5AHxt345/xVKqooev9n0XI=
+  file: latest.zip
+  on:
+    php: 7.0
+    repo: artikus11/art-woo-custom-sale
+after_deploy: "release created"
