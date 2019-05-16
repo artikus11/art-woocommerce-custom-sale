@@ -3,8 +3,8 @@ Contributors: artabr
 Donate link: https://www.paypal.me/artabr
 Tags: woocommerce, custom sale
 Requires at least: 4.8
-Tested up to: 4.9.8
-Stable tag: 1.0.0
+Tested up to: 5.2
+Stable tag: 1.1.0
 Requires PHP: 5.6
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -47,6 +47,11 @@ An answer to that question.
 3. Conclusion of a discount in the form of a price difference
 
 == Changelog ==
+
+= 1.1.0 =
+* FIX: error calculating discounts, variation product shows the maximum discount;
+* SUP: support WPCS;
+* UPD: refactoring code;
 
 = 1.0 =
 * Release this plugin to the masses!
