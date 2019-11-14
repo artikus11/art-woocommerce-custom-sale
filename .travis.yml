@@ -19,5 +19,5 @@ deploy:
   file: latest.zip
   on:
     php: 7.3
-    repo: artikus11/art-woo-custom-sale
+    repo: artikus11/art-woocommerce-custom-sale
 after_deploy: "release created"
