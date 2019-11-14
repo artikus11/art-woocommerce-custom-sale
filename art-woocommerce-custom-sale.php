@@ -5,7 +5,7 @@
  * Text Domain: art-woocommerce-custom-sale
  * Domain Path: /languages
  * Description: Customize the sale tag that appears on WooCommerce product thumbnails when a product sale price is set lower than the retail price.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Author:            Artem Abramovich
  * Author URI:        https://wpruse.ru/
  * License:           GPL-3.0+
@@ -13,7 +13,7 @@
  * Tags:
  *
  * WC requires at least: 3.3.0
- * WC tested up to: 3.6
+ * WC tested up to: 3.8
  *
  *
  * Copyright Artem Abramovich
